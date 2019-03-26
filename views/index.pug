@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Post Collection
+  
+  each post in posts
+    p User ID: #{post.userId}
+    p ID: #{post.id}
+    p Title: #{post.title}
+    p Body: #{post.body}
+    hr

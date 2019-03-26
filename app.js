@@ -13,7 +13,7 @@ var app = express();
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = '';
+var mongoDB = 'mongodb+srv://admin:test4321@cluster0-ueqkv.mongodb.net/PostClasswork?retryWrites=true';
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));

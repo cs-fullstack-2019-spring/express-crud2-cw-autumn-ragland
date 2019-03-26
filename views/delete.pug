@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 Delete Post
+    form(method='GET' action='./deleteAction')
+        p
+            lable(for='id') ID of Post to Delete:
+            input(type='text' id='id' name='id')
+        button Submit

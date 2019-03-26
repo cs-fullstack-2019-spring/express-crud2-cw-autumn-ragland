@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    h1 New Post
+    form(method='GET' action='./createAction')
+        p
+            lable(for='userId') User ID:
+            input(type='text' id='userId' name='userId')
+        p
+            lable(for='id') ID:
+            input(type='text' id='id' name='id')
+        p
+            lable(for='title') Title:
+            input(type='text' id='title' name='title')
+        p
+            lable(for='body') Body:
+            input(type='text' id='body' name='body')
+        button Submit
+
