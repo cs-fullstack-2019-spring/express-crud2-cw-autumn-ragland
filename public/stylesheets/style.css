@@ -4,5 +4,13 @@ body {
 }
 
 a {
+  margin: 1%;
+  font-size: large;
   color: #00B7FF;
+}
+
+nav{
+  padding: 2%;
+  text-align: center;
+  background-color: lightgrey;
 }
